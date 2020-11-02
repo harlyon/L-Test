@@ -36,3 +36,135 @@
     transform: rotate(360deg);
   }
 }
+.card {
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  border: 1px solid rgb(224, 224, 224);
+  height: 241px;
+  width: 420px;
+  margin: auto;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background: rgb(0, 197, 163);
+  border-color: rgb(0, 197, 163);
+}
+
+.card-icon {
+  height: 80px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+}
+
+.card-description {
+  width: 241px;
+  height: 22px;
+  color: rgba(0, 0, 0, 0.47);
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 22px;
+  margin-top: 3%;
+}
+
+.ant-drawer-title {
+  font-weight: bold;
+}
+
+.links {
+  color: rgb(88, 198, 164) !important;
+}
+
+.delete {
+  color: red;
+}
+
+.card-button {
+  /* width: 130px; */
+  height: 32px;
+  background: rgb(88, 198, 164) !important;
+  border-radius: 0px;
+  margin-top: 2%;
+  border-color: rgb(88, 198, 164) !important;
+}
+
+.ant-btn-primary {
+  background: rgb(0, 197, 163);
+  border-color: rgb(0, 197, 163);
+}
+
+.ant-btn-link {
+  color: rgb(0, 197, 163);
+  margin-right: 22% !important;
+}
+
+.ant-btn-link:hover {
+  color: rgb(0, 197, 163);
+}
+
+.ant-radio-input {
+  border: 1px solid rgb(0, 197, 163) !important;
+}
+
+.ant-radio-checked::after {
+}
+
+.ant-radio-group::selection {
+  color: #fff;
+  background: rgb(0, 197, 163) !important;
+}
+
+.RelatedAddCard {
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  border: 1px solid #e0e0e0 !important;
+  height: 151px;
+  width: 310px;
+  margin: 2%;
+}
+
+.ant-btn-primary {
+  background: rgb(0, 197, 163);
+  border-color: rgb(0, 197, 163);
+}
+
+.addPersonBtn {
+  margin-top: 35%;
+}
+
+.RelatedCard {
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  border: 1px solid #e0e0e0 !important;
+  height: 151px;
+  width: 310px;
+  margin: 2%;
+  padding-top: 8%;
+}
+
+.PersonalCard {
+  height: 151px;
+  width: 310px;
+}
+
+.LandingPersonalRow {
+  height: 151px;
+  width: 310px;
+  margin: auto !important;
+  width: 420px;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 20px;
+  font-weight: 500;
+  height: 24px;
+  letter-spacing: 0px;
+  width: 146px;
+  margin-top: 10%;
+  margin-left: 44%;
+}
