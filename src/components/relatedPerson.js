@@ -16,6 +16,7 @@ const RelatedPerson = () => {
 
   return (
     <div style={{ marginTop: 86 }}>
+      <div>Add Related Person</div>
       {!users.length > 0 && (
         <div className="card">
           <div className="card-icon">

@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import { v4 as uuid } from "uuid";
-import { useHistory } from "react-router-dom";
 import {
   Button,
   Drawer,
@@ -25,7 +24,6 @@ const AddRelatedPerson = (props) => {
   const [checked, setChecked] = useState(false);
 
   const { addUser } = useContext(GlobalContext);
-  const history = useHistory();
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -41,7 +39,6 @@ const AddRelatedPerson = (props) => {
     };
     addUser(newUser);
     props.onClose();
-    console.log(newUser);
   };
 
   const handleClick = () => setChecked(!checked);
@@ -50,6 +47,7 @@ const AddRelatedPerson = (props) => {
   return (
     <div>
       <Drawer
+        destroyOnClose={true}
         title="Add a related person"
         width={350}
         placement="right"
@@ -171,7 +169,6 @@ const AddRelatedPerson = (props) => {
           <Row>
             <Col span={24}>
               <Form.Item
-                //name="nationality"
                 label="Nationality"
                 rules={[
                   { required: true, message: "Please enter Nationality" },
