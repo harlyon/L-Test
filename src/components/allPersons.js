@@ -22,9 +22,7 @@ const AllPersons = () => {
   const { users, removeUser, editUser } = useContext(GlobalContext);
   const [visible, setVisible] = React.useState(false);
   const [getId, setGetId] = React.useState("");
-  console.log("id", getId);
   const currentUserId = getId;
-  console.log(";;;;;", currentUserId);
   const [selectedUser, setSelectedUser] = React.useState({
     id: "",
     firstName: "",
